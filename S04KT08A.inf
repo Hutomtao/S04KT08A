@@ -1,0 +1,15 @@
+[Version]
+Class       = Firmware
+ClassGuid   = {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+DriverVer   = 08/01/2017,1.0.0.08
+
+[Firmware_CopyFiles]
+S04KT08A.ROM
+
+[Firmware_AddReg]
+HKR,,FirmwareId,,{27e752f0-46fb-4e0c-8caa-926d1899cd97}
+HKR,,FirmwareVersion,%REG_DWORD%,0x00000008
+HKR,,FirmwareFilename,,S04KT08A.ROM
+
+[Strings]
+REG_DWORD = 0x00010001

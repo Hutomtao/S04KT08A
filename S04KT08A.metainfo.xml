@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016 Richard Hughes  -->
+<component type="firmware">
+  <id>com.lenovo.ThinkStation.firmware</id>
+  <name>ThinkStation</name>
+  <summary>Lenovo ThinkStation P720 System Firmware</summary>
+  <description>
+    <p>
+      This is a test firmware for system firmware udpate via fwupdate/fwupd for ThinkStation.
+    </p>
+  </description>
+  <provides>
+    <firmware type="flashed">27e752f0-46fb-4e0c-8caa-926d1899cd97</firmware>
+  </provides>
+  <url type="homepage">http://www.lenovo.com/</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <developer_name>Lenovo Ltd.</developer_name>
+  <releases>
+    <release version="1.0.0.08" timestamp="1501516800">
+      <checksum filename="S04KT08A.ROM" target="content"/>
+      <description>
+        <p>This stable release fixes the following bugs:</p>
+        <ul>
+          <li>Fix the return code from GetHardwareVersion</li>
+          <li>Scale the output of TakeReadingRaw by the datasheet values</li>
+        </ul>
+      </description>
+      </checksum>
+    </release>
+  </releases>
+</component>
